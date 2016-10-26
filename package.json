@@ -1,0 +1,24 @@
+{
+  "name": "resizerjs",
+  "version": "1.0.0",
+  "description": "An image resizing utility",
+  "main": "resizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake-bladt/resizerJs.git"
+  },
+  "keywords": [
+    "resizing",
+    "images",
+    "sharp"
+  ],
+  "author": "Jake Bladt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jake-bladt/resizerJs/issues"
+  },
+  "homepage": "https://github.com/jake-bladt/resizerJs#readme"
+}
