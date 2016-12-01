@@ -1,5 +1,8 @@
-# Resizer JS
+# Resizer (largely in JavaScript)
 
-A utility for resizing directories full of images, this time in node.
+A utility for bulk resizing images, built to be distributed via AWS.
 
-**25-Oct-2016**: Ran into an error with npm in a hosted VM. Following up.
+The pieces are:
+* lambda service - a script for managing and performing the actual image resizing
+* web server - a nodeJs-based service for setting up and managing user accounts and jobs
+* cli - a command-line interface for managing jobs and uploading images
