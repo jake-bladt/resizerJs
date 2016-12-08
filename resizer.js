@@ -9,5 +9,5 @@ aws.config.update({
 // Hard-code region for now
 aws.config.update({region: 'us-west-2'});
 var s3 = new aws.S3();
-
-
+var srcDir = process.argv[0]
+console.log(srcDir);
