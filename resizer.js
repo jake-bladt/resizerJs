@@ -14,7 +14,7 @@ var srcBucket = process.argv[2],
 var pathParams = {
   Bucket: srcBucket,
   Delimiter: '',
-  Prefix: 'elections/2013/201307/travel'
+  Prefix: 'elections/2013/201307/travel/'
 };
 
 s3.listObjects(pathParams, function(err, data) {
