@@ -5,3 +5,4 @@ node_modules/
 *.cab
 
 secrets.js
+contents.json
