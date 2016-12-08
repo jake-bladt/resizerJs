@@ -6,4 +6,6 @@ aws.config.update({
   secretAccessKey: secrets.AWSSecretAccessKey
 });
 
+// Hard-code region for now
+aws.config.update({region: 'us-west-2'});
 
