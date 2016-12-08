@@ -20,6 +20,6 @@ var pathParams = {
 s3.listObjects(pathParams, function(err, data) {
   if(err) console.log('ERR:', err);
   data.Contents.forEach(function(item, index) {
-    console.log(item.Key);
+    console.log(item.Key.replace(pathParams.Prefix, ''));
   });
 });
