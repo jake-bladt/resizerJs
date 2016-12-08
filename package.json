@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jake-bladt/resizerJs#readme",
   "dependencies": {
+    "aws-sdk": "^2.7.12",
     "imagemagick": "^0.1.3"
   }
 }
