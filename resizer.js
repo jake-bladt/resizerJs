@@ -1,7 +1,9 @@
-var sharp = require('sharp');
+var secrets = require('./secrets')
+var aws = require('aws-sdk');
 
-if(sharp.thing) { 
-  console.log("Sharp has a thing.");
-} else {
-  console.log("Sharp has no thing.");
-}
+aws.config.update({
+  accessKeyId: secrets.AWSAccessKeyId,
+  secretAccessKey: secrets.AWSSecretAccessKey
+});
+
+
